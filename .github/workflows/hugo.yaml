@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.108.0
+      HUGO_VERSION: 0.111.3-5d4eb5154e1fed125ca8e9b5a0315c4180dab192+extended
     steps:
       - name: Install Hugo CLI
         run: |
@@ -57,6 +57,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Postbuild Actions
+        run: rm -rf node_modules && npx "@bookshop/generate"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

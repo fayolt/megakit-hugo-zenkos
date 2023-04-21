@@ -1,7 +1,7 @@
 ---
-title: "Our blog"
+title: "Our Industries"
 hero:
-  title: "Blog Articles"
+  title: "Our Areas Of Impact"
   background_image: "/images/bg/home-2.jpg"
-url: /blog/
+url: /industries/
 ---

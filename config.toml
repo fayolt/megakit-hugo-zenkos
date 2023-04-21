@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = "Megakit"
+title = "Zenkos"
 Paginate = 20
 PaginatePath = "/"
 summaryLength = 10
@@ -9,7 +9,7 @@ summaryLength = 10
 category = "categories"
 
 [permalinks]
-posts = ":section/:year/:month/:day/:title/"
+posts = ":section/:title/"
 
 [module]
 replacements = "local/component-library -> ../component-library"
@@ -19,3 +19,6 @@ path = 'local/component-library'
 
 [[module.imports]]
 path = 'github.com/cloudcannon/bookshop/hugo/v3'
+
+[security.exec]
+  osEnv = ['.*']

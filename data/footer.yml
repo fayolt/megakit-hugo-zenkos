@@ -1,18 +1,18 @@
 column:
-  - heading: Company
-    items:
-      - name: "Terms & Conditions"
-        url: "/about/"
-        open_in_new_tab: false
-      - name: "Privacy Policy"
-        url: "/about/"
-        open_in_new_tab: false
-      - name: "Support"
-        url: "/contact/"
-        open_in_new_tab: false
-      - name: "FAQ"
-        url: "/contact/"
-        open_in_new_tab: false
+  # - heading: Company
+  #   items:
+  #     - name: "Terms & Conditions"
+  #       url: "/about/"
+  #       open_in_new_tab: false
+  #     - name: "Privacy Policy"
+  #       url: "/about/"
+  #       open_in_new_tab: false
+  #     - name: "Support"
+  #       url: "/contact/"
+  #       open_in_new_tab: false
+  #     - name: "FAQ"
+  #       url: "/contact/"
+  #       open_in_new_tab: false
   - heading: Quick Link
     items:
       - name: "About"

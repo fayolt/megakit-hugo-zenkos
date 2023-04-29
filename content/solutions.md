@@ -27,7 +27,7 @@ content_blocks:
         icon: "ti-pencil-alt"
         content: "A digital agency isn't here to replace your internal team, we're here to partner."
   - _bookshop_name: "cta_mini"
-    preheading: "For every type business"
+    preheading: "For every type of business"
     heading: "Entrust Your Project to Our Best Team of Professionals"
     button:
       text: "Contact"

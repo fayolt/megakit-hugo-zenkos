@@ -6,7 +6,7 @@ hero:
 content_blocks:
   - _bookshop_name: "contact_form"
     preheading: "We are Professionals"
-    heading: "Don’t Hesitate to contact with us for any kind of information"
+    heading: "Do not hesitate to contact with us for any kind of information"
     form_heading: "Leave Us A Message"
     address: "14 Sumatra corner of New & 7th Roads, Midrand 1685, Gauteng, South Africa"
     email: info@zenkosinvestment.com

@@ -4,7 +4,7 @@ content_blocks:
   - _bookshop_name: "big-hero"
     preheading: "Prepare for new future"
     heading: "We are an investment company based in Africa"
-    background_image: "/images/bg/home-1.jpg"
+    background_image: "/images/bg/home.jpg"
     link:
       text: "Get started"
       url: "#"

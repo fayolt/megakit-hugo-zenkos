@@ -91,12 +91,8 @@
 		$('.portfolio-gallery').each(function () {
 			$(this).find('.popup-gallery').magnificPopup({
 				type: 'inline',
-				// focus: '#username',
 				closeBtnInside:true,
-				midClick: true,
-				gallery: {
-					enabled: true
-				}
+				midClick: true
 			});
 		});
 	}

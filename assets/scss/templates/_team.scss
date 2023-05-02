@@ -1,3 +1,7 @@
+.team-item-wrap {
+	text-align: center;
+}
+
 .team-img-hover .team-social li a.facebook {
     background: #6666cc;
 }
@@ -6,7 +10,7 @@
     background: #3399cc;
 }
 
- .team-img-hover .team-social li a.instagram {
+.team-img-hover .team-social li a.instagram {
     background: #cc66cc;
 }
 
@@ -58,3 +62,11 @@
 	right: 0px;
 	bottom: 0px;
  }
+ .team-item i {
+	font-size: 100px;
+    line-height: 100px;
+ }
+
+ .team-item-content p {
+	text-align: justify;
+}

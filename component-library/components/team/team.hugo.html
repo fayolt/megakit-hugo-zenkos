@@ -13,8 +13,13 @@
 			{{ range .people }}
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="team-item-wrap mb-5">
+						
 						<div class="team-item position-relative">
+							{{ if .image }}
 							<img loading="lazy" src="{{ .image }}" alt="{{ .name }}" class="img-fluid w-100">
+							{{ else }}
+							<i class="fa fa-user-alt color-one"></i>
+							{{ end }}
 							<div class="team-img-hover">
 								<ul class="team-social list-inline">
 									{{ if .facebook }}
@@ -40,9 +45,11 @@
 								</ul>
 							</div>
 						</div>
+						
 						<div class="team-item-content">
-							<h4 class="mt-3 mb-0 text-capitalize">{{ .name }}</h4>
-							<p>{{ .role }}</p>
+							<h3 class="mt-3 mb-0 text-capitalize">{{ .name }}</h3>
+							<h5>{{ .role }}</h5>
+							<p>{{ .summary }}</p>
 						</div>
 					</div>
 				</div>

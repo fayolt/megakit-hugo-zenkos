@@ -11,11 +11,11 @@ content_blocks:
     address: "14 Sumatra corner of New & 7th Roads, Midrand 1685, Gauteng, South Africa"
     email: info@zenkosinvestment.com
     phone: +27 11 051 4081 / +27 83 704 4505
-    facebook: themefisher
-    twitter: themefisher
-    linkedin: themefisher
+    # facebook: themefisher
+    # twitter: themefisher
+    linkedin: kossi-toulassi-61845462
   - _bookshop_name: "map"
-    latitude: 40.712776
-    longitude: -74.005974
+    latitude: -25.9719303
+    longitude: 28.1023304
     name: "Zenkos Investments"
 ---

@@ -71,7 +71,7 @@ content_blocks:
         instagram: ""
         linkedin: ""
       - name: "Hippolyte-Fayol Toulassi"
-        image: ""
+        image: "/images/team/team-1.jpg"
         role: "Software Engineer"
         summary: "Polyglot Software Engineer with demonstrated experience in Web App & API design, Application Support and Site Reliability Engineering. Fintech and Entreprise Systems Integration specialist"
         facebook: ""

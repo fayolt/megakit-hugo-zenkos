@@ -74,6 +74,8 @@ content_blocks:
         image: ""
         role: "Software Engineer"
         summary: "Polyglot Software Engineer with demonstrated experience in Web App & API design, Application Support and Site Reliability Engineering. Fintech and Entreprise Systems Integration specialist"
+        facebook: ""
         twitter: "fayolt"
+        instagram: ""
         linkedin: "fayolt"
 ---

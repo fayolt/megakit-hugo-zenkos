@@ -20,12 +20,6 @@ content_blocks:
         text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
       - title: "Our Mission"
         text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
-      - title: "Our Strategy"
-        text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
-      - title: "Vision"
-        text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
-      - title: "Our Mission"
-        text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
   # - _bookshop_name: "counter_dark"
   #   numbers:
   #     - icon: "ti-check"
@@ -49,7 +43,7 @@ content_blocks:
     heading: "Expert Team member to get best service"
     people:
       - name: "Kossi Toulassi"
-        image: ""
+        image: "/images/team/team-6.jpg"
         summary: "Chartered certified Accountant and fellow member of the Association of Chartered and
                   Certified Accountant (ACCA-UK). He is currently finalizing an MBA from the London School of
                   Business and Finance. He has worked both in United Kingdom and Africa. He is also the Head of
@@ -61,7 +55,7 @@ content_blocks:
         instagram: ""
         linkedin: ""
       - name: "Zinhle Dlamini"
-        image: ""
+        image: "/images/team/team-1.jpg"
         role: "Chief Operation Office"
         summary: "A season business woman with over 10 years worth of experience in international trade and since
                   joining the company in 2014 transformed the organization. She is a graduate from University of
@@ -71,7 +65,7 @@ content_blocks:
         instagram: ""
         linkedin: ""
       - name: "Hippolyte-Fayol Toulassi"
-        image: "/images/team/team-1.jpg"
+        image: "/images/team/team-3.jpg"
         role: "Software Engineer"
         summary: "Polyglot Software Engineer with demonstrated experience in Web App & API design, Application Support and Site Reliability Engineering. Fintech and Entreprise Systems Integration specialist"
         facebook: ""

@@ -6,7 +6,7 @@ hero:
 content_blocks:
   - _bookshop_name: "services"
     preheading: "Our Solutions"
-    heading: "We provide a wide range of value added solutions"
+    heading: "We provide a wide range of solutions"
     sections:
       - title: "Balance Score Core"
         icon: "ti-desktop"

@@ -43,7 +43,7 @@ content_blocks:
     heading: "Expert Team member to get best service"
     people:
       - name: "Kossi Toulassi"
-        image: "/images/team/team-6.jpg"
+        image: "/images/team/team-1.jpg"
         summary: "Chartered certified Accountant and fellow member of the Association of Chartered and
                   Certified Accountant (ACCA-UK). He is currently finalizing an MBA from the London School of
                   Business and Finance. He has worked both in United Kingdom and Africa. He is also the Head of
@@ -55,7 +55,7 @@ content_blocks:
         instagram: ""
         linkedin: ""
       - name: "Zinhle Dlamini"
-        image: "/images/team/team-1.jpg"
+        image: "/images/team/team-2.jpg"
         role: "Chief Operation Office"
         summary: "A season business woman with over 10 years worth of experience in international trade and since
                   joining the company in 2014 transformed the organization. She is a graduate from University of

@@ -8,14 +8,14 @@ content_blocks:
     preheading: "We are Professionals"
     heading: "Do not hesitate to contact with us for any kind of information"
     form_heading: "Leave Us A Message"
-    address: "14 Sumatra corner of New & 7th Roads, Midrand 1685, Gauteng, South Africa"
+    address: "4228 Black Eagle Ave, Cedar Lakes, Randburg, 2125, South Africa"
     email: info@zenkosinvestment.com
     phone: +27 11 051 4081 / +27 83 704 4505
     # facebook: themefisher
     # twitter: themefisher
     linkedin: kossi-toulassi-61845462
   - _bookshop_name: "map"
-    latitude: -25.9719303
-    longitude: 28.1023304
+    latitude: -26.0073746
+    longitude: 27.9898338
     name: "Zenkos Investments"
 ---

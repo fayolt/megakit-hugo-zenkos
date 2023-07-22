@@ -3,7 +3,7 @@ title: "Home"
 content_blocks:
   - _bookshop_name: "big-hero"
     preheading: "Prepare for new future"
-    heading: "We are an investment company based in Africa"
+    heading: "We are an investment Company based in Africa"
     background_image: "/images/bg/home.jpg"
     link:
       text: "Get started"
@@ -24,12 +24,12 @@ content_blocks:
   - _bookshop_name: "about"
     preheading: "What we are"
     heading: "We are dynamic team of creative people"
-    subheading: "We are Perfect Solution"
+    subheading: "We provide consulting service in the following areas"
     content: "We provide consulting services in the area of IFRS and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier."
     background_image: "/images/about/home-8.jpg"
     link:
       text: "Get started"
-      url: "#"
+      url: "/home"
   # - _bookshop_name: "counter"
   #   numbers:
   #     - number: 1730
@@ -69,7 +69,7 @@ content_blocks:
   - _bookshop_name: "cta_mini"
     background_image: "/images/bg/home-3.jpg"
     preheading: "We provide a wide range of services"
-    heading: "Have any project in mind? Contact us for immidiate support"
+    heading: "Have any project in mind? <br /> Contact us for immidiate support"
     button:
       text: Contact
       url: /contact/

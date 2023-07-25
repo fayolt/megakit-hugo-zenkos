@@ -4,14 +4,19 @@ hero:
   title: "Our Company"
   background_image: "/images/bg/home-2.jpg"
 content_blocks:
-  - _bookshop_name: "start"
+  - _bookshop_name: "about"
     preheading: "What we are"
-    heading: "We are an investment company based in Africa"
-    text: "We play an important role in promoting investment opportunities in Africa through tailored, sustainable investment models. We provide investors with a diverse scope of national and international investment opportunities and facilitate those investments by providing clients with services that target their individual needs and exceed their expectations. Led by a strong management and board-of-directors team, we are poised for rapid growth. Our team’s unique experience and insight allows us to discover new short and long terms opportunities and reveal their true potential. We value each opportunity and present the best investments solutions to ensure higher return on investments to our shareholders. With close support from various business sectors, we play a vital and intrinsic role in meeting the needs of African countries."
-    image_path: "/images/about/home-1.jpeg"
-    button:
-      text: "Get in touch"
-      url: "/contact/"
+    heading: "We are dynamic team of creative people"
+    subheading: "We provide consulting service in the following areas"
+    content:
+      - text: "Strategy development and executing using in the Institute way from Balanced Scorecard Institute"
+      - text: "Projects risk evaluation using the best world class tools in risk evaluation, Monte Carlos simulation, simulations to advise our clients to run their project on time and on budget."
+      - text: "Use Statistical tools business analytics, precision tree, NeuralTool, Evolver and TopRank and tools supported by artificial intelligence to advise our clients to know what matters in decision making."
+      - text: "We profit the best financial modelling tools and support to our clients in developing green and brown projects."
+    background_image: "/images/about/home-1.jpeg"
+    # link:
+    #   text: "Get in touch"
+    #   url: "/contact/"
   - _bookshop_name: "numbers"
     sections:
       - title: "Our Strategy"
@@ -20,24 +25,6 @@ content_blocks:
         text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
       - title: "Our Mission"
         text: "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti voluptas distinctio."
-  # - _bookshop_name: "counter_dark"
-  #   numbers:
-  #     - icon: "ti-check"
-  #       number: 1730
-  #       suffix: "+"
-  #       text: "Projects Done"
-  #     - icon: "ti-flag"
-  #       number: 125
-  #       suffix: "M"
-  #       text: "Users Worldwide"
-  #     - icon: "ti-layers"
-  #       number: 39
-  #       suffix: ""
-  #       text: "Available Countries"
-  #     - icon: "ti-medall"
-  #       number: 14
-  #       suffix: ""
-  #       text: "Awards Won"
   - _bookshop_name: "team"
     preheading: "Meet The Team"
     heading: "Expert Team member to get best service"
@@ -72,4 +59,11 @@ content_blocks:
         twitter: "fayolt"
         instagram: ""
         linkedin: "fayolt"
+  - _bookshop_name: "cta_mini"
+    background_image: "/images/bg/home-3.jpg"
+    preheading: "Take advantage of our team's expertise"
+    heading: "Reach out to us now!"
+    button:
+      text: Contact
+      url: /contact/
 ---

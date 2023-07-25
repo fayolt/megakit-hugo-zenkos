@@ -12,7 +12,8 @@ blueprint:
   preheading: ""
   heading: ""
   subheading: ""
-  content: ""
+  content:
+    - paragraph: ""
   background_image: ""
   link:
     text: ""
@@ -23,9 +24,9 @@ preview:
   preheading: What we are
   heading: We are dynamic team of creative people
   subheading: We are Perfect Solution
-  content: We provide consulting services in the area of IFRS and management
-    reporting, helping companies to reach their highest level. We optimize
-    business processes, making them easier.
+  content: 
+    - paragraph: "We provide consulting services in the area of IFRS and management reporting."
+    - paragraph: "We optimize business processes, making them easier."
   background_image: /images/about/home-8.jpg
   link:
     text: Get started

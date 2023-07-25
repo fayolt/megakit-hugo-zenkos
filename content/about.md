@@ -8,9 +8,9 @@ content_blocks:
     preheading: "What we are"
     heading: "We are an investment company based in Africa"
     text: "We play an important role in promoting investment opportunities in Africa through tailored, sustainable investment models. We provide investors with a diverse scope of national and international investment opportunities and facilitate those investments by providing clients with services that target their individual needs and exceed their expectations. Led by a strong management and board-of-directors team, we are poised for rapid growth. Our team’s unique experience and insight allows us to discover new short and long terms opportunities and reveal their true potential. We value each opportunity and present the best investments solutions to ensure higher return on investments to our shareholders. With close support from various business sectors, we play a vital and intrinsic role in meeting the needs of African countries."
-    image_path: "/images/bg/home-7.jpg"
+    image_path: "/images/about/home-1.jpeg"
     button:
-      text: "Get started"
+      text: "Get in touch"
       url: "/contact/"
   - _bookshop_name: "numbers"
     sections:

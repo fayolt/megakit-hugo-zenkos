@@ -7,7 +7,7 @@ content_blocks:
     background_image: "/images/bg/home.jpg"
     link:
       text: "Get started"
-      url: "#"
+      url: "/"
   # - _bookshop_name: "intro"
   #   preheading: "We are creative & expert people"
   #   heading: "We work with business & provide solution to client with their business problem"
@@ -25,11 +25,15 @@ content_blocks:
     preheading: "What we are"
     heading: "We are dynamic team of creative people"
     subheading: "We provide consulting service in the following areas"
-    content: "We provide consulting services in the area of IFRS and management reporting, helping companies to reach their highest level. We optimize business processes, making them easier."
-    background_image: "/images/about/home-8.jpg"
+    content: 
+      - paragraph: "Strategy development and executing using in the Institute way from Balanced Scorecard Institute"
+      - paragraph: "Projects risk evaluation using the best world class tools in risk evaluation, Monte Carlos simulation, simulations to advise our clients to run their project on time and on budget."
+      - paragraph: "Use Statistical tools business analytics, precision tree, NeuralTool, Evolver and TopRank and tools supported by artificial intelligence to advise our clients to know what matters in decision making."
+      - paragraph: "We profit the best financial modelling tools and support to our clients in developing green and brown projects."
+    background_image: "/images/about/home-1.jpeg"
     link:
       text: "Get started"
-      url: "/home"
+      url: "/"
   # - _bookshop_name: "counter"
   #   numbers:
   #     - number: 1730

@@ -10,7 +10,7 @@ content_blocks:
     form_heading: "Leave Us A Message"
     address: "4228 Black Eagle Ave, Cedar Lakes, Randburg, 2125, South Africa"
     email: info@zenkosinvestment.com
-    phone: +27 11 051 4081 / +27 83 704 4505
+    phone: +27 79 534 2092
     # facebook: themefisher
     # twitter: themefisher
     linkedin: kossi-toulassi-61845462

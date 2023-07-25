@@ -3,7 +3,11 @@ title: "Our partners"
 hero:
   title: "Partner Institutions"
   background_image: "/images/bg/home-2.jpg"
-content_blocks: []
+content_blocks:
+  - _bookshop_name: "intro"
+    sections:
+      - title: ... under construction
+        icon: ti-info-alt
 #   - _bookshop_name: "services"
 #     preheading: "We partner with "
 #     heading: "We work with the following institutions"

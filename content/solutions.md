@@ -9,12 +9,12 @@ content_blocks:
     heading: We provide a wide range of solutions
     sections:
       - title: Balanced Scorecard
-        icon: ../images/solutions/balanced-scorecard.jpeg
+        image: ../images/solutions/balanced-scorecard.jpeg
         content: >-
-          **Strategy + Alignment + Execution&nbsp; &nbsp; Practical Strategy
+          **Strategy + Alignment + Execution&nbsp; Practical Strategy
           Development and Goal Setting - Communicating What Matters**
 
-
+          
           The journey to creating a high-performance organisation begins with a
           disciplined process for strategy development and goal setting and
           continues with communicating the strategy clearly through the
@@ -25,13 +25,12 @@ content_blocks:
           success is based on the understanding of the clients needs and
           applying the Balanced Scorecard Institute Methodology
       - title: Financial Modelling
-        icon: ../images/solutions/financial-modelling.jpeg
+        image: ../images/solutions/financial-modelling.jpeg
         content: >-
           We specialise in developing solution that include the best financial
           models that our clients need to navigate in the challenges economic
           environment. We work hand in hand with our clients to ensure that we
           understand the peculiarity of their business environment.
-
 
           * To increase the rate of suggest with investors, provide extra
           services to our client using Business Intelligence and Data analytics
@@ -41,7 +40,9 @@ content_blocks:
           decision making.
 
           * We support our client to understand they success element in business
-          valuation. - We provide capital markets and securities analysis to our
+          valuation.
+          
+          * We provide capital markets and securities analysis to our
           clients.
 
           * Provide deeper analysis of commercial banking and credits available
@@ -50,11 +51,11 @@ content_blocks:
 
           * Finally provide them with tool on how to pitch
       - title: Risk Management
-        icon: ../images/solutions/risk-management.jpg
+        image: ../images/solutions/risk-management.jpg
         content: >-
           **Monte Carlo Simulation**
 
-
+          
           One of the tools we use to ensure that our clients’ projects are run
           in time and on budget is the @Risk. Which as enable us to undertake up
           to 10,000 simulations to provide the best analysis to our clients in
@@ -62,13 +63,21 @@ content_blocks:
           crude oil, construction, infrastructure, and agriculture and
           healthcare systems
       - title: Analytics for decision
-        icon: ../images/solutions/analytics.jpeg
+        image: ../images/solutions/analytics.jpeg
         content: >-
           We use powerful statistical tools such as StatTools and XLStat to
           provide qualitative and quantitative analysis to our clients
+      - title: Software Solutions
+        image: ../images/solutions/software-solutions.jpg
+        content: >-
+         Coming Soon ...
   - _bookshop_name: cta_mini
     preheading: For every type of business
-    heading: Entrust Your Project to Our Best Team of Professionals
+    heading: >-
+      Entrust Your Project to 
+      
+      
+      Our Best Team of Professionals
     button:
       text: Contact
       url: /contact/

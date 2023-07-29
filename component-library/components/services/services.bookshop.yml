@@ -13,7 +13,7 @@ blueprint:
   heading: ""
   sections:
     - title: ""
-      icon: ""
+      image: ""
       content: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
@@ -22,27 +22,27 @@ preview:
   heading: "We provide a wide range of creative services "
   sections:
     - title: Web development
-      icon: ti-desktop
+      image: ti-desktop
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
     - title: Interface Design
-      icon: ti-layers
+      image: ti-layers
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
     - title: Business Consulting
-      icon: ti-bar-chart
+      image: ti-bar-chart
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
-    - icon: ti-vector
+    - image: ti-vector
       title: Branding
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
     - title: App development
-      icon: ti-android
+      image: ti-android
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
     - title: Content creation
-      icon: ti-pencil-alt
+      image: ti-pencil-alt
       content: A digital agency isn't here to replace your internal team, we're here
         to partner.
 

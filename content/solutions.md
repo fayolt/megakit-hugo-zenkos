@@ -9,7 +9,7 @@ content_blocks:
     heading: "We provide a wide range of solutions"
     sections:
       - title: "Balanced Score Card"
-        icon: "ti-desktop"
+        icon: "../images/about/home-8.jpg"
         content: "**Strategy + Alignment + Execution**
           Practical Strategy Development and Goal Setting - Communicating What Matters
           The journey to creating a high-performance organisation begins with a disciplined process for strategy development and goal setting and continues with communicating the strategy clearly through the organisation.

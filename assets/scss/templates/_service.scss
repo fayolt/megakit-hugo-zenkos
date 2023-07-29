@@ -5,10 +5,26 @@
 	padding-left: 80px;
 
 	i{
+		
+		// display: block;
 		position: absolute;
 		left: 0px;
 		top:5px;
 		font-size: 50px;
 		opacity: .4;
 	}
+	
+}
+
+.icon{
+	// background: url("../images/about/home-8.jpg") no-repeat;
+	display: block;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 0px;
+	top:5px;
+	font-size: 50px;
+	opacity: .4;
+	border-radius: 50%;
 }

@@ -3,7 +3,7 @@ date: 2023-07-22
 title: Finance and Banking
 # categories:
 #   - Healthcare
-image_path: /images/blog/4.jpg
+image_path: /images/blog/finance-and-banking.avif
 # author: Arther Conal
 ---
 

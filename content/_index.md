@@ -27,16 +27,16 @@ content_blocks:
     sections:
       - title: Balanced Scorecard
         image: ../images/solutions/balanced-scorecard.jpeg
-        content: "A digital agency isn't here to replace your internal team, we're here to partner."
+        content: "Strategy + Alignment + Execution  Practical Strategy Development and Goal Setting - Communicating What Matters"
       - title: Financial Modelling
         image: ../images/solutions/financial-modelling.jpeg
-        content: "A digital agency isn't here to replace your internal team, we're here to partner."
+        content: "We specialise in developing solution that include the best financial models that our clients need to navigate in the challenges economic environment"
       - title: Risk Management
         image: ../images/solutions/risk-management.jpg
-        content: "A digital agency isn't here to replace your internal team, we're here to partner."
+        content: "Monte Carlo Simulation and other tools"
       - title: Analytics for decision
         image: ../images/solutions/analytics.jpeg
-        content: "A digital agency isn't here to replace your internal team, we're here to partner."
+        content: "We use powerful statistical tools such as StatTools and XLStat to provide qualitative and quantitative analysis to our clients"
       - title: Software Solutions
         image: ../images/solutions/software-solutions.jpg
         content: "Coming Soon..."

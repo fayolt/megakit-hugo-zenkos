@@ -9,7 +9,7 @@ content_blocks:
     heading: "We are dynamic team of creative people"
     subheading: "We provide consulting service in the following areas"
     content:
-      - text: "Strategy development and execution using in the Institute way from Balanced Scorecard Institute"
+      - text: "Strategy development and execution using the Institute way from Balanced Scorecard Institute"
       - text: "Projects risk evaluation using the best world class tools in risk evaluation, Monte Carlos simulation, simulations to advise our clients to run their project on time and on budget."
       - text: "Use Statistical tools business analytics, precision tree, NeuralTool, Evolver and TopRank and tools supported by artificial intelligence to advise our clients to know what matters in decision making."
       - text: "We use the best financial modelling tools and support to our clients in developing green and brown projects."

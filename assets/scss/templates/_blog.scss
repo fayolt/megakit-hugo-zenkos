@@ -13,7 +13,10 @@
       color: $primary-color !important;
     }
   }
-  text-align: justify;
+  
+  p {
+    text-align: justify;
+  }
 }
 
 .lh-36 {

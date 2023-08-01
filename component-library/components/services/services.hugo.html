@@ -12,13 +12,21 @@
 		<div class="row justify-content-start">
 			{{ range .sections }}
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="service-item mb-5">
-						<img class="img-fluid thumbnail" src="{{ .image}}" alt="">
-						<h4 class="mb-3">{{ .title }}</h4>
-						<p>{{ .content | markdownify }}</p>
+					<div class="service-item mb-5" id="{{ .title | anchorize }}">
+						<img class="img-fluid thumbnail" src="{{ .image}}" alt="{{ .title }}">
+						<a href="/solutions/#{{ .title | anchorize }}">
+							<h4 class="mb-3">{{ .title }}</h4>
+							<p>{{ .content | markdownify }}</p>
+						</a>
 					</div>
 				</div>
 			{{ end }}
 		</div>
 	</div>
 </section>
+
+asa.ns.cloudflare.com
+roan.ns.cloudflare.com
+169.1.24.244
+
+https://dashboard.paack.co/users/sign_in

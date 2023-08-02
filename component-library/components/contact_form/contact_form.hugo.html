@@ -8,10 +8,17 @@
 						<input name="name" type="text" class="form-control" placeholder="Your Name" required>
 					</div>
 					<div class="form-group">
-						<input name="email" type="email" class="form-control" placeholder="Email Address" required>
+						<input name="_replyto" type="email" class="form-control" placeholder="Email Address" required>
 					</div>
 					<div class="form-group-2 mb-4">
 						<textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+					</div>
+					<div>
+						<input type="hidden" name="inbox_key" value="zenkosinvestments-contact">
+						<input type="hidden" name="_subject" value="ZenkosINvestments Website Contact Form">
+						<input type="hidden" name="_from" value="noreply@zenkosinvestments.com">
+						<input type="hidden" name="_to" value="fayolt@live.fr,fayolt@gmail.com">
+						<input type="hidden" name="_cc" value="hippolyte.fayol@paack.co">
 					</div>
 					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
 				</form>

@@ -1,42 +1,5 @@
-<script src="https://www.google.com/recaptcha/api.js?render=6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg"></script>
-<script>
-  var submitted = false;
-  var tokenCreated = false;
-  var formEl = document.getElementById('contact-form');
-
-  formEl.addEventListener("submit", function (event) {
-
-    // Check if the recaptcha exists
-    if (!tokenCreated) {
-
-      // Prevent submission
-      event.preventDefault();
-
-      // Prevent more than one submission
-      if (!submitted) {
-        submitted = true;
-        // needs for recaptacha ready
-        grecaptcha.ready(function() {
-          // do request for recaptcha token
-          // response is promise with passed token
-          grecaptcha.execute('6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg', {action: 'create_comment'}).then(function (token) {
-            // add token to form
-            var input = document.createElement("input");
-            input.type = "hidden";
-            input.name = "g-recaptcha-response";
-            input.value = token;
-            formEl.appendChild(input);
-
-            // resubmit the form
-            tokenCreated = true;
-            formEl.submit();
-          });
-        });
-      }
-    }
-  });
-</script>
 <section class="contact-form-wrap section">
+	<script src="https://www.google.com/recaptcha/api.js?render=6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg"></script>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12">
@@ -95,4 +58,41 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		var submitted = false;
+		var tokenCreated = false;
+		var formEl = document.getElementById('contact-form');
+
+		formEl.addEventListener("submit", function (event) {
+
+			// Check if the recaptcha exists
+			if (!tokenCreated) {
+
+			// Prevent submission
+			event.preventDefault();
+
+			// Prevent more than one submission
+			if (!submitted) {
+				submitted = true;
+				// needs for recaptacha ready
+				grecaptcha.ready(function() {
+				// do request for recaptcha token
+				// response is promise with passed token
+				grecaptcha.execute('6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg', {action: 'create_comment'}).then(function (token) {
+					// add token to form
+					var input = document.createElement("input");
+					input.type = "hidden";
+					input.name = "g-recaptcha-response";
+					input.value = token;
+					formEl.appendChild(input);
+
+					// resubmit the form
+					tokenCreated = true;
+					formEl.submit();
+				});
+				});
+			}
+			}
+		});
+	</script>
 </section>

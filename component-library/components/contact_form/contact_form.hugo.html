@@ -17,10 +17,9 @@
 					<div>
 						<input type="hidden" name="inbox_key" value="zenkosinvestments-contact">
 						<input type="hidden" name="_subject" value="ZenkosInvestments Website Contact Form">
-						<!-- <input type="hidden" name="_from" value="noreply@zenkosinvestments.com"> -->
+						<input type="hidden" name="_from" value="noreply@zenkosinvestments.com">
 						<input type="hidden" name="_to" value="{{ .email }}">
-						<!-- <input type="hidden" name="_cc" value="hippolyte.fayol@paack.co"> -->
-						<input type="text" name="_gotcha">
+						<input type="text" name="_gotcha" style="display: none;">
 					</div>
 					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
 				</form>
@@ -69,29 +68,29 @@
 			if (!tokenCreated) {
 
 			// Prevent submission
-			event.preventDefault();
+				event.preventDefault();
 
-			// Prevent more than one submission
-			if (!submitted) {
-				submitted = true;
-				// needs for recaptacha ready
-				grecaptcha.ready(function() {
-				// do request for recaptcha token
-				// response is promise with passed token
-				grecaptcha.execute('6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg', {action: 'create_comment'}).then(function (token) {
-					// add token to form
-					var input = document.createElement("input");
-					input.type = "hidden";
-					input.name = "g-recaptcha-response";
-					input.value = token;
-					formEl.appendChild(input);
+				// Prevent more than one submission
+				if (!submitted) {
+					submitted = true;
+					// needs for recaptacha ready
+					grecaptcha.ready(function() {
+					// do request for recaptcha token
+					// response is promise with passed token
+						grecaptcha.execute('6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg', {action: 'create_comment'}).then(function (token) {
+							// add token to form
+							var input = document.createElement("input");
+							input.type = "hidden";
+							input.name = "g-recaptcha-response";
+							input.value = token;
+							formEl.appendChild(input);
 
-					// resubmit the form
-					tokenCreated = true;
-					formEl.submit();
-				});
-				});
-			}
+							// resubmit the form
+							tokenCreated = true;
+							formEl.submit();
+						});
+					});
+				}
 			}
 		});
 	</script>

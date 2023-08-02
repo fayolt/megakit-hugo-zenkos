@@ -1,5 +1,5 @@
 <section class="contact-form-wrap section">
-	<script src="https://www.google.com/recaptcha/api.js?render=6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render={{ site.data.company.site_id }}"></script>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12">
@@ -18,9 +18,9 @@
 						<input type="hidden" name="inbox_key" value="zenkosinvestments-contact">
 						<input type="hidden" name="_subject" value="ZenkosInvestments Website Contact Form">
 						<!-- <input type="hidden" name="_from" value="noreply@zenkosinvestments.com"> -->
-						<input type="hidden" name="_to" value="{{ .email }},fayolt@gmail.com">
+						<input type="hidden" name="_to" value="{{ .email }}">
 						<!-- <input type="hidden" name="_cc" value="hippolyte.fayol@paack.co"> -->
-						<input type="text" name="_gotcha" style="display: none;">
+						<input type="text" name="_gotcha">
 					</div>
 					<button class="btn btn-main" name="submit" type="submit">Send Message</button>
 				</form>
@@ -78,7 +78,7 @@
 				grecaptcha.ready(function() {
 				// do request for recaptcha token
 				// response is promise with passed token
-				grecaptcha.execute('6Ld7HnYnAAAAABvo7mAvoqPHMhnNH9qY31sRKVjg', {action: 'create_comment'}).then(function (token) {
+				grecaptcha.execute('{{ site.data.company.site_id }}', {action: 'create_comment'}).then(function (token) {
 					// add token to form
 					var input = document.createElement("input");
 					input.type = "hidden";

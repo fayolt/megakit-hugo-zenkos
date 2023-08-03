@@ -42,7 +42,7 @@ content_blocks:
         instagram: ""
         linkedin: "kossi-toulassi-61845462"
       - name: "Zinhle Dlamini"
-        image: "/images/team/team-1.jpeg"
+        image: "/images/team/team-2.jpg"
         role: "Chief Operation Office"
         summary: "A season business woman with over 10 years worth of experience in international trade and since
                   joining the company in 2014 transformed the organization. She is a graduate from University of

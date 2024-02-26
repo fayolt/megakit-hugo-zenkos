@@ -41,11 +41,7 @@ content_blocks:
         linkedin: ""
       - name: "Kossi Toulassi"
         image: "/images/team/team-1.jpeg"
-        summary: "Chartered certified Accountant and fellow member of the Association of Chartered and
-                  Certified Accountant (ACCA-UK). He is currently finalizing an MBA from the London School of
-                  Business and Finance. He has worked both in United Kingdom and Africa. He is also the Head of
-                  Finance of the New Partnership for Africa Development, part of Africa Union for the past 7 years.
-                  He has over 16 years worth experience dealing with businesses in Africa"
+        summary: "Chartered Certified Accountant (FCCA). Holds an MBA in Financial Management and Post Graduate  in Data Science and Business Analytics. Has over 20 years of experience in various industries (Fintech, Infrastructure, Energy, Human Development, Climate and Agriculture) and currently focuses on the AI and data science projects in Africa."
         role: "Senior Advisor"
         facebook: ""
         twitter: ""

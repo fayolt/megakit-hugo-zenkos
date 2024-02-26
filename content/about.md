@@ -29,21 +29,9 @@ content_blocks:
     preheading: "Meet The Team"
     heading: "Expert Team member to get best service"
     people:
-      - name: "Kossi Toulassi"
-        image: "/images/team/team-1.jpeg"
-        summary: "Chartered certified Accountant and fellow member of the Association of Chartered and
-                  Certified Accountant (ACCA-UK). He is currently finalizing an MBA from the London School of
-                  Business and Finance. He has worked both in United Kingdom and Africa. He is also the Head of
-                  Finance of the New Partnership for Africa Development, part of Africa Union for the past 7 years.
-                  He has over 16 years worth experience dealing with businesses in Africa"
-        role: "Managing Director"
-        facebook: ""
-        twitter: ""
-        instagram: ""
-        linkedin: "kossi-toulassi-61845462"
       - name: "Zinhle Dlamini"
         image: ""
-        role: "Chief Operation Office"
+        role: "Managing Director"
         summary: "A season business woman with over 10 years worth of experience in international trade and since
                   joining the company in 2014 transformed the organization. She is a graduate from University of
                   southern Africa, South Africa"
@@ -51,6 +39,18 @@ content_blocks:
         twitter: ""
         instagram: ""
         linkedin: ""
+      - name: "Kossi Toulassi"
+        image: "/images/team/team-1.jpeg"
+        summary: "Chartered certified Accountant and fellow member of the Association of Chartered and
+                  Certified Accountant (ACCA-UK). He is currently finalizing an MBA from the London School of
+                  Business and Finance. He has worked both in United Kingdom and Africa. He is also the Head of
+                  Finance of the New Partnership for Africa Development, part of Africa Union for the past 7 years.
+                  He has over 16 years worth experience dealing with businesses in Africa"
+        role: "Senior Advisor"
+        facebook: ""
+        twitter: ""
+        instagram: ""
+        linkedin: "kossi-toulassi-61845462"
       - name: "Hippolyte-Fayol Toulassi"
         image: "/images/team/team-3.jpg"
         role: "Software Engineer"

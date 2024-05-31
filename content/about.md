@@ -30,17 +30,17 @@ content_blocks:
     heading: "Expert Team member to get best service"
     people:
       - name: "Zinhle Dlamini"
-        image: ""
+        image: "/images/team/team-1.jpeg"
         role: "Managing Director"
         summary: "A season business woman with over 10 years worth of experience in international trade and since
                   joining the company in 2014 transformed the organization. She is a graduate from University of
-                  southern Africa, South Africa"
+                  Southern Africa, South Africa"
         facebook: ""
         twitter: ""
         instagram: ""
         linkedin: ""
       - name: "Kossi Toulassi"
-        image: "/images/team/team-1.jpeg"
+        image: "/images/team/team-2.jpeg"
         summary: "Chartered Certified Accountant (FCCA). Holds an MBA in Financial Management and Post Graduate  in Data Science and Business Analytics. Has over 20 years of experience in various industries (Fintech, Infrastructure, Energy, Human Development, Climate and Agriculture) and currently focuses on the AI and data science projects in Africa."
         role: "Senior Advisor"
         facebook: ""

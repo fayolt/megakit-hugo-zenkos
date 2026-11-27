@@ -63,7 +63,7 @@ content_blocks:
           crude oil, construction, infrastructure, and agriculture and
           healthcare systems
       - title: Analytics for decision
-        image: ../images/solutions/analytics.jpeg
+        image: ../images/solutions/analytics-gemini.jpeg
         content: >-
           We use powerful statistical tools such as StatTools and XLStat to
           provide qualitative and quantitative analysis to our clients

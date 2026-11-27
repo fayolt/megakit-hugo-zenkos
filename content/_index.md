@@ -35,7 +35,7 @@ content_blocks:
         image: ../images/solutions/risk-management.jpg
         content: "Monte Carlo Simulation and other tools"
       - title: Analytics for decision
-        image: ../images/solutions/analytics.jpeg
+        image: ../images/solutions/analytics-gemini.jpeg
         content: "We use powerful statistical tools such as StatTools and XLStat to provide qualitative and quantitative analysis to our clients"
       - title: Software Solutions
         image: ../images/solutions/software-solutions.jpg

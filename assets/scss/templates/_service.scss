@@ -3,7 +3,8 @@
 .service-item{
 	position: relative;
 	padding-left: 80px;
-
+	text-align: justify;
+	
 	i{
 		position: absolute;
 		left: 0px;
@@ -11,4 +12,24 @@
 		font-size: 50px;
 		opacity: .4;
 	}
+
+	ul {
+		padding: initial;
+	}
+	
+	ul li::marker {
+		color: #f75757;
+		font-size: 1.5rem;
+		content: "✓";
+	}
+}
+
+.thumbnail{
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	left: 0px;
+	// top:5px;
+	// opacity: .4;
+	border-radius: 75%;
 }

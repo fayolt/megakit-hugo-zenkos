@@ -90,10 +90,9 @@
 	if ($('.portfolio-gallery').length !== 0) {
 		$('.portfolio-gallery').each(function () {
 			$(this).find('.popup-gallery').magnificPopup({
-				type: 'image',
-				gallery: {
-					enabled: true
-				}
+				type: 'inline',
+				closeBtnInside:true,
+				midClick: true
 			});
 		});
 	}

@@ -15,6 +15,7 @@ blueprint:
     - image: ""
       name: ""
       role: ""
+      summary: ""
       facebook: ""
       twitter: ""
       instagram: ""
@@ -28,6 +29,7 @@ preview:
     - image: /images/team/team-1.jpg
       name: David Spensor
       role: Project Manager
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
@@ -35,6 +37,7 @@ preview:
     - image: /images/team/team-2.jpg
       name: Jason Roy
       role: UI/UX Designer
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
@@ -42,6 +45,7 @@ preview:
     - image: /images/team/team-3.jpg
       name: Henry Oswald
       role: Developer
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
@@ -49,6 +53,7 @@ preview:
     - image: /images/team/team-4.jpg
       name: David Williams
       role: Senior Marketer
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
@@ -56,6 +61,7 @@ preview:
     - image: /images/team/team-5.jpg
       name: Peter Odin
       role: App Developer
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
@@ -63,6 +69,7 @@ preview:
     - name: David Spensor
       image: /images/team/team-5.jpg
       role: Project Manager
+      summary: ""
       facebook: themefisher
       twitter: themefisher
       instagram: themefisher
